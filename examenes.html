@@ -1,0 +1,617 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>BioCell - Laboratorio de análisis Clínico</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="BioCell,Laboratorio, análisis, Clínico">
+    <meta content="" name="BioCell - Laboratorio de análisis Clínico">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&family=Red+Rose:wght@600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Spinner Start -->
+    <div id="spinner"
+        class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-border text-primary" role="status" style="width: 3rem; height: 3rem;"></div>
+    </div>
+    <!-- Spinner End -->
+
+
+    <!-- Topbar Start -->
+    <div class="container-fluid py-2 d-none d-lg-flex">
+        <div class="container">
+            <div class="d-flex justify-content-between">
+                <div>
+                    <small class="me-3"><i class="fa fa-map-marker-alt me-2"></i>Av. Cañoto, Nro 700</small>
+                    <small class="me-3"><i class="fa fa-clock me-2"></i>Oficina Central atención las 24 Hrs.</small>
+                </div>
+                <nav class="breadcrumb mb-0">
+                    <a class="breadcrumb-item small text-body" href="#">Contáctenos</a>
+                    <a class="breadcrumb-item small text-body" href="#">Sucursales</a>
+                </nav>
+            </div>
+        </div>
+    </div>
+    <!-- Topbar End -->
+
+    <!-- Brand Start -->
+    <div class="container-fluid bg-primary text-white pt-4 pb-5 d-none d-lg-flex">
+        <div class="container pb-2">
+            <div class="d-flex align-items-center justify-content-between">
+                <div class="d-flex">
+                    <i class="bi bi-telephone-inbound fs-2"></i>
+                    <div class="ms-3">
+                        <h5 class="text-white mb-0">LLamenos</h5>
+                        <span>3 3546281</span>
+                    </div>
+                </div>
+                <a href="index.html" class="h1 text-white mb-0"><img src="img/logoBlanco.png" alt="" width="160px"></a>
+                <div class="d-flex">
+                    <i class="bi bi-envelope fs-2"></i>
+                    <div class="ms-3">
+                        <h5 class="text-white mb-0">Correo</h5>
+                        <span>info@biocell.com</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Brand End -->
+
+
+    <!-- Navbar Start -->
+    <div class="container-fluid sticky-top">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-light bg-white py-lg-0 px-lg-3">
+                <a href="index.html" class="navbar-brand d-lg-none">
+                    <h1 class="text-primary m-0"></h1>
+                </a>
+                <button type="button" class="navbar-toggler me-0" data-bs-toggle="collapse"
+                    data-bs-target="#navbarCollapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <div class="navbar-nav">
+                        <a href="index.html" class="nav-item nav-link ">Inicio</a>
+                        <a href="about.html" class="nav-item nav-link">Nosotros</a>
+                        <div class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle active" data-bs-toggle="dropdown">Servicio al paciente</a>
+                            <div class="dropdown-menu bg-light m-0">
+                                <a href="examenes.html" class="dropdown-item">Exámenes</a>
+                                <a href="contact.html" class="dropdown-item">Preguntas Frecuentes</a>
+                                <a href="contact.html" class="dropdown-item">Convenios</a>
+                            </div>
+                        </div>
+                        <a href="promos.html" class="nav-item nav-link">Promos</a>
+                        <a href="https://resultados.laboratoriosbiocell.com.bo" class="nav-item nav-link">Consuta de resultados</a>
+                        <a href="contact.html" class="nav-item nav-link">Contacto</a>
+                        <a href="service.html" class="nav-item nav-link">Servicios médicos</a>
+                    </div>
+                    <div class="ms-auto d-none d-lg-flex">
+                        <a class="btn btn-sm-square btn-primary ms-2" href="https://www.facebook.com/profile.php?id=100066758516455"><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-sm-square btn-primary ms-2" href="https://www.instagram.com/laboratorios_biocell/"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+    <!-- Navbar End -->
+
+    <!-- Page Header Start -->
+    <div class="container-fluid page-header py-5 wow fadeIn" data-wow-delay="0.1s">
+        <div class="container text-center py-5 mt-4">
+            <h1 class="display-2 text-white mb-3 animated slideInDown">Exámenes</h1>
+        </div>
+    </div>
+    <br>
+    <!-- Page Header End -->
+
+
+
+    <!-- FAQ 1 - Bootstrap Brain Component -->
+    <section class="bg-light py-3 py-md-5">
+        <div class="container">
+            <div class="row gy-5 gy-lg-0 align-items-lg-center">
+                <div class="col-12 col-lg-12">
+                    <div class="row justify-content-xl-end">
+                        <div class="col-12 col-xl-11">
+                            <h2 class="h1 mb-3"></h2>
+                            <p class="lead fs-4 text-secondary mb-5">Le brindamos la mayor cantidad de examenes con la mayor confiabilidad y en el menor tiempo.</p>
+                            <div class="accordion accordion-flush" id="accordionExample">
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingOne">
+                                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                            data-bs-target="#collapseOne" aria-expanded="true"
+                                            aria-controls="collapseOne">
+                                            <span class="fw-bolder">Hematología</span>
+                                        </button>
+                                    </h2>
+                                    <div id="collapseOne" class="accordion-collapse collapse show"
+                                        aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            <ul>
+                                                <li>Hemograma completo</li>
+                                                <li>Hematrocito</li>
+                                                <li>Hemoglobina</li>
+                                                <li>Entirosedimentación</li>
+                                                <li>Retuculosis</li>
+                                                <li>Grupo sanguineo y factor RH</li>
+                                                <li>Células LE</li>
+                                                <li>Coombs indirecto</li>
+                                                <li>Inv. Plasmodium(Gota Gruesa)</li>
+                                                <li>Inv.T.Cruz(strout)</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingTwo">
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#collapseTwo"
+                                            aria-expanded="false" aria-controls="collapseTwo">
+                                            <span class="fw-bolder">Serología-Inmunología</span>
+                                        </button>
+                                    </h2>
+                                    <div id="collapseTwo" class="accordion-collapse collapse"
+                                        aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            <ul>
+                                                <li>Proteina C. Reactiva</li>
+                                                <li>Latex R.A.</li>
+                                                <li>Antiestreptolisina 'O'</li>
+                                                <li>V.D.R.L</li>
+                                                <li>V.P.R.</li>
+                                                <li>Grupo sanguineo y factor RH</li>
+                                                <li>Reacción de Widal</li>
+                                                <li>Reacción de Huddleson</li>
+                                                <li>Reaccion de Weil Felix</li>
+                                                <li>Paul Bunnel(Monostest)</li>
+                                                <li>HAI-Chagas</li>
+                                                <li>Inmuno Chagas lg.G.</li>
+                                                <li>Inmuno Chagas lg.M.</li>
+                                                <li>Chagas(ELISA) lg.G.</li>
+                                                <li>Chagas(ELISA) lg.M.</li>
+                                                <li>HAI-Toxoplasmosis</li>
+                                                <li>Inmuno Toxoplasmosis lg.G.</li>
+                                                <li>Inmuno Toxoplasmosis lg.M.</li>
+                                                <li>Toxoplasmosis(ELISA) lg.G.</li>
+                                                <li>Toxoplasmosis(ELISA) lg.M.</li>
+                                                <li>HIV-Sida</li>
+                                                <li>Cisticercosis (ELISA)</li>
+                                                <li>Tuberculosis(ELISA) lgM</li>
+                                                <li>Esptein-Barr lgM lgG</li>
+                                                <li>Herpes lgM lgG</li>
+                                                <li>Rubeola lgM lgG</li>
+                                                <li>Citomegalovius lgM lgG</li>
+                                                <li>Clamidya lgM lgG</li>
+                                                <li>Clamidya (Cualitativo)</li>
+                                                <li>Helicobacter Pylorí lgM lgG</li>
+                                                <li>Helicobacter Pylorí (Cualitativo)</li>
+                                                <li>Hepatitis A lgM lgG</li>
+                                                <li>Hepatitis B Antig superficie</li>
+                                                <li>Hepatitis B Antig 'e'</li>
+                                                <li>Hepatitis B core (Hbc)</li>
+                                                <li>Hepatitis C</li>
+                                                <li>Inmunoglobinas IgG</li>
+                                                <li>Inmunoglobinas IgM</li>
+                                                <li>Inmunoglobinas IgE</li>
+                                                <li>Inmunoglobinas IgA</li>
+                                                <li>Complemento - C3</li>
+                                                <li>Complemento - C4</li>
+                                                <li>Alfa Feto Proteinas</li>
+                                                <li>Factor Antinuclear (FAN)</li>
+                                                <li>ANA (ELISA)</li>
+                                                <li>Anti-DNAds (ELISA)</li>
+                                                <li>ANCA-P</li>
+                                                <li>ANCA-C</li>
+                                                <li>FTA Sifilis</li>
+                                                <li>Antimusculos Liso-ASMA</li>
+                                                <li>AC. Antimitocondriales-AMA</li>
+                                                <li>Acido Valproico</li>
+                                                <li>Carbamazepina</li>
+                                                <li>Fenobarvital</li>
+                                                <li>PPD (Test de Tuberculina)</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingThree">
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#collapseThree"
+                                            aria-expanded="false" aria-controls="collapseThree">
+                                            <span class="fw-bolder">Marcadores Tumorales</span> 
+                                        </button>
+                                    </h2>
+                                    <div id="collapseThree" class="accordion-collapse collapse"
+                                        aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            <ul>
+                                                <li>Antígeno Prostático Específico (PSA) total</li>
+                                                <li>Antígeno Prostático Específico (PSA) Libre</li>
+                                                <li>Antígeno Carcinoembrionario (CEA)</li>
+                                                <li>CA 125</li>
+                                                <li>CA 19-9</li>
+                                                <li>CA 15-3</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingFour">
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#collapseFour"
+                                            aria-expanded="false" aria-controls="collapseFour">
+                                            <span class="fw-bolder">Cuagulorama</span>
+                                        </button>
+                                    </h2>
+                                    <div id="collapseFour" class="accordion-collapse collapse"
+                                        aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            <ul>
+                                                <li>Recuento de plaquetas</li>
+                                                <li>Tiempo de sangría y coagulación</li>
+                                                <li>Tiempo de Protrombina</li>
+                                                <li>Tiempo de Tromboplastina Parcial Activada</li>
+                                                <li>Fibrinógeno</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingFive">
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#collapseFive"
+                                            aria-expanded="false" aria-controls="collapseFive">
+                                            <span class="fw-bolder">Hormonas</span>
+                                        </button>
+                                    </h2>
+                                    <div id="collapseFive" class="accordion-collapse collapse"
+                                        aria-labelledby="headingFive" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            <ul>
+                                                <li>T3, T4, TSH</li>
+                                                <li>T4 Libre</li>
+                                                <li>Ac Anti-Tiroglobulina</li>
+                                                <li>Tiroglobulina</li>
+                                                <li>Anti TPO</li>
+                                                <li>Insulina Basal</li>
+                                                <li>Insulina (Post Prandial)</li>
+                                                <li>LH (Mujeres, día del ciclo)</li>
+                                                <li>FSH (Mujeres, día del ciclo)</li>
+                                                <li>Estradiol (Mujeres, día del ciclo)</li>
+                                                <li>Progesterona (Mujeres, día del ciclo)</li>
+                                                <li>Prolactina (PRL)</li>
+                                                <li>Gonadotropina Coriónica Beta (β-HCG) Cualitativa/Cuantitativa</li>
+                                                <li>Testosterona</li>
+                                                <li>Testosterona Libre</li>
+                                                <li>Cortisol Basal (8:00 a.m.)</li>
+                                                <li>Cortisol (16:00 p.m.)</li>
+                                                <li>Hormona del Crecimiento (HGH) Basal</li>
+                                                <li>Hormona del Crecimiento (Post-Ejercicio)</li>
+                                                <li>DHEA-S</li>
+                                                <li>17-OH Progesterona</li>
+                                                <li>Androstenediona</li>
+                                                <li>Hormona Paratiroidea (PTH)</li>
+                                                <li>Perfil ENA</li>
+                                                <li>Aldosterona</li>
+                                                <li>Hormona Adrenocorticotropa (ACTH)</li>
+                                                <li>Anticuerpos Anti-Fosfolípidos</li>
+                                                <li>Péptido C</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingSix">
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#collapseSix"
+                                            aria-expanded="false" aria-controls="collapseSix">
+                                            <span class="fw-bolder">Biquímico Sanguínea</span>
+                                        </button>
+                                    </h2>
+                                    <div id="collapseSix" class="accordion-collapse collapse"
+                                        aria-labelledby="headingSix" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            <ul>
+                                                <li>Glucosa</li>
+                                                <li>Glucosa - 2 Hrs. Post-Prandial</li>
+                                                <li>Curva de Tolerancia a la Glucosa</li>
+                                                <li>Hemoglobina Glucosilada (HbA1c)</li>
+                                                <li>Urea</li>
+                                                <li>Creatinina</li>
+                                                <li>Colesterol Total</li>
+                                                <li>HDL Colesterol</li>
+                                                <li>LDL Colesterol</li>
+                                                <li>VLDL Colesterol</li>
+                                                <li>Triglicéridos</li>
+                                                <li>Ácido Úrico</li>
+                                                <li>Lípidos Totales</li>
+                                                <li>Fosfolípidos</li>
+                                                <li>Proteinograma (Electroforesis)</li>
+                                                <li>Proteínas Totales</li>
+                                                <li>Albúmina</li>
+                                                <li>Sodio</li>
+                                                <li>Potasio</li>
+                                                <li>Cloro</li>
+                                                <li>Calcio Sérico</li>
+                                                <li>Ferritina</li>
+                                                <li>Transferrina</li>
+                                                <li>Saturación de Transferrina</li>
+                                                <li>Transaminasa GPT (ALT)</li>
+                                                <li>Transaminasa GOT (AST)</li>
+                                                <li>Gamma Glutamil Transferasa (GGT)</li>
+                                                <li>Amilasa</li>
+                                                <li>Lipasa</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingSeven">
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#collapseSeven"
+                                            aria-expanded="false" aria-controls="collapseSeven">
+                                            <span class="fw-bolder">Drogas Estupefacientes</span>
+                                        </button>
+                                    </h2>
+                                    <div id="collapseSeven" class="accordion-collapse collapse"
+                                        aria-labelledby="headingSeven" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            <ul>
+                                                <li>Test de Marihuana</li>
+                                                <li>Test de Cocaína</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingEight">
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#collapseEight"
+                                            aria-expanded="false" aria-controls="collapseEight">
+                                            <span class="fw-bold">Uroanálisis</span>
+                                        </button>
+                                    </h2>
+                                    <div id="collapseEight" class="accordion-collapse collapse"
+                                        aria-labelledby="headingEight" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            <ul>
+                                                <li>Orina Completa</li>
+                                                <li>Glucosuria</li>
+                                                <li>Urea en orina</li>
+                                                <li>Proteinuria</li>
+                                                <li>Proteinuria de 24 horas</li>
+                                                <li>Microalbuminuria</li>
+                                                <li>Clearance de Creatinina (24 horas)</li>
+                                                <li>Amilasuria (2 horas)</li>
+                                                <li>Calciuria (24 horas)</li>
+                                                <li>Uricosuria (24 horas)</li>
+                                                <li>Fósforo en orina (24 horas)</li>
+                                                <li>Test de Embarazo en orina</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingNine">
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#collapseNine"
+                                            aria-expanded="false" aria-controls="collapseNine">
+                                            <span class="fw-bolder">Bacteriología</span>
+                                        </button>
+                                    </h2>
+                                    <div id="collapseNine" class="accordion-collapse collapse"
+                                        aria-labelledby="headingNine" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            <ul>
+                                                <li>Urocultivo y Antibiograma</li>
+                                                <li>Coprocultivo y Antibiograma</li>
+                                                <li>Hemocultivo y Antibiograma</li>
+                                                <li>Secreción Vaginal: Cultivo y Antibiograma</li>
+                                                <li>Secreción Vaginal: Examen Bacteriológico</li>
+                                                <li>Secreción Uretral: Examen Bacteriológico</li>
+                                                <li>Secreción Uretral: Cultivo y Antibiograma</li>
+                                                <li>Baciloscopia Simple</li>
+                                                <li>Baciloscopia Seriada</li>
+                                                <li>Cultivo Bacteriológico</li>
+                                                <li>Examen Directo Micológico</li>
+                                                <li>Cultivo Micológico</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingTen">
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#collapseTen"
+                                            aria-expanded="false" aria-controls="collapseTen">
+                                            <span class="fw-bolder">Heces Fecales</span>
+                                        </button>
+                                    </h2>
+                                    <div id="collapseTen" class="accordion-collapse collapse"
+                                        aria-labelledby="headingTen" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            <ul>
+                                                <li>Examen Parasitológico Simple</li>
+                                                <li>Examen Parasitológico Seriado</li>
+                                                <li>Test de Graham (Prueba de Oxiuros)</li>
+                                                <li>Moco Fecal</li>
+                                                <li>Sangre Oculta en Heces</li>
+                                                <li>pH Fecal</li>
+                                                <li>Rotavirus en Heces</li>
+                                                <li>Helicobacter pylori en Heces</li>
+                                                <li>Examen Bacterioscópico</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingEleven">
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#collapseEleven"
+                                            aria-expanded="false" aria-controls="collapseEleven">
+                                            <span class="fw-bolder">Exámenes Especiales</span>
+                                        </button>
+                                    </h2>
+                                    <div id="collapseEleven" class="accordion-collapse collapse"
+                                        aria-labelledby="headingEleven" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            <ul>
+                                                <li>Líquido Cefalorraquídeo (LCR):
+                                                    <ul>
+                                                        <li>Examen Citoquímico</li>
+                                                        <li>Examen Bacteriológico</li>
+                                                    </ul>
+                                                </li>
+                                                <li>Líquido Pleural</li>
+                                                <li>Líquido Sinovial</li>
+                                                <li>Líquido Ascítico</li>
+                                                <li>Espermograma</li>
+                                                <li>Citograma Nasal</li>
+                                                <li>Investigación de Espermatozoides</li>
+                                                <li>Gasometría</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingTwelve">
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#collapseTwelve"
+                                            aria-expanded="false" aria-controls="collapseTwelve">
+                                            <span class="fw-bolder">Nuevos Servicios</span>
+                                        </button>
+                                    </h2>
+                                    <div id="collapseTwelve" class="accordion-collapse collapse"
+                                        aria-labelledby="headingTwelve" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            <ul>
+                                                <li>Prueba precisa de paternidad</li>
+                                                <li>ADN Forense</li>
+                                                <li>Cariotipo</li>
+                                                <li>Asesoramiento Genético</li>
+                                            </ul>
+                                            <p><strong>Nota:</strong> REPRESENTANTE LEGAL DE IDENTIGENE-CBBA.</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Start -->
+    <br>
+    <div class="container-fluid footer position-relative bg-dark text-white-50 py-5 wow fadeIn" data-wow-delay="0.1s">
+        <div class="container">
+            <div class="row g-5 py-5">
+                <div class="col-lg-6 pe-lg-5">
+                    <a href="index.html" class="navbar-brand">
+                        <img src="img/logoBlanco.png" alt="" width="160px">
+                    </a>
+                    <p class="fs-5 mb-4">No dude en contactarse</p>
+                    <p><i class="fa fa-map-marker-alt me-2"></i>Av. Cañoto # 700 esquina Mario Flores</p>
+                    <p><i class="fa fa-phone-alt me-2"></i>3 3546281</p>
+                    <p><i class="fa fa-envelope me-2"></i>info@biocell.com</p>
+                    <div class="d-flex mt-4">
+                        <a class="btn btn-lg-square btn-primary me-2"
+                            href="Facebook: https://www.facebook.com/profile.php?id=100066758516455"><i
+                                class="fab fa-facebook"></i></a>
+                        <a class="btn btn-lg-square btn-primary me-2"
+                            href="https://www.instagram.com/laboratorios_biocell/"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-6 ps-lg-5">
+                    <div class="row g-5">
+                        <div class="col-sm-12">
+                            <h4 class="text-light mb-4">Enlaces</h4>
+                            <a class="btn btn-link" href="about.html">Nosotros</a>
+                            <a class="btn btn-link" href="contact.html">Contacto</a>
+                            <a class="btn btn-link" href="service.html">Servicios</a>
+                            <a class="btn btn-link" href="contact.html">Preguntas</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+
+    <!-- Copyright Start -->
+    <div class="container-fluid copyright bg-dark text-white-50 py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 text-center text-md-start">
+                    <p class="mb-0">&copy; <a href="#">Saru Producciones</a>. All Rights Reserved.</p>
+                </div>
+                <div class="col-md-6 text-center text-md-end">
+                    <p class="mb-0">Diseñado por <a href="">Saru Producciones</a><br>Distributed by <a href="#">Saru
+                            Producciones</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Copyright End -->
+
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded-circle back-to-top"><i
+            class="bi bi-arrow-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
