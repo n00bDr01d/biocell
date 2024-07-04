@@ -1,3 +1,7 @@
+@font-face {
+    font-family: 'NombreDeTuFuente';
+    src: url('../font/serpentype-albula-pro-bold.woff') format('woff');
+}
 /********** Template CSS **********/
 
 .back-to-top {
@@ -606,3 +610,31 @@
     color: var(--bs-primary);
 }
 
+.feature-item .icon-box-primary {
+    margin-bottom: 1rem;
+    display: inline-block;
+}
+
+
+.feature-item h5 {
+    margin-bottom: 1rem;
+}
+
+.texto-naranja1{
+    color: var(--naranja-primario);
+}
+
+.txt-justificado{
+    text-align: justify
+}
+
+.txt-may{
+    text-transform: uppercase;
+}
+
+.fuente-titulo {
+    /*font-family: 'Albula Pro', sans-serif;*/
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900; /* Especifica el peso de la fuente (900 para Black) */
+    font-size: 1.3rem;
+}
