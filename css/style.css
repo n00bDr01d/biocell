@@ -1,3 +1,4 @@
+
 @font-face {
     font-family: 'NombreDeTuFuente';
     src: url('../font/serpentype-albula-pro-bold.woff') format('woff');
@@ -677,6 +678,23 @@
 }
 
 .logo-reducido {
-    width: 50px; /* Ajusta el tamaño según sea necesario */
+    width: 80px; /* Ajusta el tamaño según sea necesario */
     height: auto;
 }
+
+
+/**-----*/
+
+/* Estilos para versiones móviles y tabletas */
+@media (max-width: 992px) {
+    .navbar {
+        background-color: #F39200 !important;
+    }
+
+    .navbar-nav .nav-link {
+        color: #fff !important; /* Asegúrate de que el texto del menú sea visible sobre el fondo naranja */
+    }
+}
+
+/* Estilos para versión de escritorio (punto de ruptura de 992px en adelante) */
+
