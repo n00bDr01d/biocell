@@ -231,27 +231,27 @@
 }
 
 .page-header-contact {
-    background: linear-gradient(rgba(3, 27, 78, .3), rgba(3, 27, 78, .3)), url(../img/PORTADA-contactanos.jpg) center center no-repeat;
+    background: linear-gradient(rgba(3, 27, 78, .3), rgba(3, 27, 78, .3)), url(../img/contactanosok.jpg) center center no-repeat;
     background-size: cover;
 }
 
 .page-header-faq {
-    background: linear-gradient(rgba(3, 27, 78, .3), rgba(3, 27, 78, .3)), url(../img/PORTADA-preguntasfreceuntes.jpg) center center no-repeat;
+    background: linear-gradient(rgba(3, 27, 78, .3), rgba(3, 27, 78, .3)), url(../img/preguntasfrecuentes.jpg) center center no-repeat;
     background-size: cover;
 }
 
 .page-header-promos {
-    background: linear-gradient(rgba(3, 27, 78, .3), rgba(3, 27, 78, .3)), url(../img/PORTADA-promocines.jpg) center center no-repeat;
+    background: linear-gradient(rgba(3, 27, 78, .3), rgba(3, 27, 78, .3)), url(../img/PROMOPORTADA.jpg) center center no-repeat;
     background-size: cover;
 }
 
 .page-header-about {
-    background: linear-gradient(rgba(3, 27, 78, .3), rgba(3, 27, 78, .3)), url(../img/PORTADA-nosotros.jpg) center center no-repeat;
+    background: linear-gradient(rgba(3, 27, 78, .3), rgba(3, 27, 78, .3)), url(../img/NOSOTROS.jpg) center center no-repeat;
     background-size: cover;
 }
 
 .page-header-examenes {
-    background: linear-gradient(rgba(3, 27, 78, .3), rgba(3, 27, 78, .3)), url(../img/PORTADA-exAmenes.jpg) center center no-repeat;
+    background: linear-gradient(rgba(3, 27, 78, .3), rgba(3, 27, 78, .3)), url(../img/examenes.jpg) center center no-repeat;
     background-size: cover;
 }
 
